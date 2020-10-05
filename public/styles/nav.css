@@ -1,0 +1,47 @@
+.profile img {
+    display: inline;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin: 40px;
+}
+
+.profile-name{
+    font-weight: normal;
+}
+li{
+    padding-top: 10px;
+    font-size: 15px;
+}
+
+.social{
+    margin-top: 30px;
+    font-size: 20px;
+}
+.social a{
+    padding: 10px;
+}
+
+#sidebar {
+    min-width: 250px;
+    max-width: 250px;
+    min-height: 100vh;
+}
+
+#sidebar.active {
+    margin-left: -250px;
+}
+
+a[data-toggle="collapse"] {
+    position: relative;
+}
+
+.dropdown-toggle::after {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+
+

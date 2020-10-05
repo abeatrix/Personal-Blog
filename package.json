@@ -1,0 +1,25 @@
+{
+  "name": "bea-blog",
+  "version": "1.0.0",
+  "description": "Personal Blog",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Blog",
+    "MongoDB"
+  ],
+  "author": "Beatrix W. beatrixwoo@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "connect-mongo": "^3.2.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "method-override": "^3.0.0",
+    "mongoose": "^5.10.7",
+    "session": "^0.1.0"
+  }
+}
